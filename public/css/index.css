@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root{
+    --bg:#211e2e;
+    --text-color:white;
+    --prime-color:#8176af;
+    --light-prime-color:#C0B7E8;
+}
+*{
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color:var(--text-color);
+}
+
+html,
+body{
+    width:100vw;
+    height:100vh ;
+    overflow-x: hidden;
+    background-color: var(--bg) ;
+    top:50;
+    left:84;
+}
+ 
+ 
