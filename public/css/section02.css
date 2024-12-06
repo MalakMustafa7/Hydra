@@ -1,0 +1,120 @@
+.sec02{
+  display:  flex; 
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center ;
+  width: 100%;
+  padding: 20px;
+}
+
+.sec02 .sec-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .sec02 .description{
+    width: 550px;
+    height: 98px;
+    font-size: 14px;
+    margin-left: 50px;
+  }
+   
+  div.sec-container .intro-hr{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43.88px;
+  }
+   
+  div.sec-container .hydra-hr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  [alt="arrow icon"]{
+  width: 150px;
+  }
+
+   div.mask-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   }
+
+   div.mask-group .mask-img{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius:175px  73px 175px 73px;
+    margin-right: 50px;
+    margin-top: 30px;
+   }
+   div.mask-details{
+     width: 630px;
+    height: 228px;
+    margin-top: -40px;
+   }
+
+   div.mask-details p#pa{
+    font-weight: 600;
+    font-size: 30px;
+   }
+
+   div.mask-details p#ph{
+    font-weight: 300;
+    font-size: 22px;
+   }
+
+   div.mask-details p#peg{
+    font-size: 14px;
+    margin-top: 20px;
+   }
+
+   .in-touch{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    color: var(--bg);
+    border-radius: 40px;
+    background: linear-gradient(to right,var(--prime-color),var(--light-prime-color));
+    height: 40px;
+    padding: 0 20px;
+    border-style: none;
+    margin-top: 10px;
+  }
+
+  /* @media (max-width: 500px){
+    div.mask-group{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+     }
+
+  .sec02 .description{
+    display: none;
+  }
+  p#pa{
+    display: none;
+  }
+  p#ph{
+    display: none;
+  }
+  p#peg{
+  width: 400px;
+  margin-left: 150px;
+  margin-top:50px;
+  }
+  .in-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  } */
