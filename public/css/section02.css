@@ -53,6 +53,7 @@
     border-radius:175px  73px 175px 73px;
     margin-right: 50px;
     margin-top: 30px;
+    
    }
    div.mask-details{
      width: 630px;
@@ -88,12 +89,13 @@
     margin-top: 10px;
   }
 
-  /* @media (max-width: 500px){
+  @media (max-width: 500px){
     div.mask-group{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+       
       
      }
 
@@ -106,15 +108,23 @@
   p#ph{
     display: none;
   }
-  p#peg{
-  width: 400px;
-  margin-left: 150px;
-  margin-top:50px;
-  }
   .in-touch{
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  } */
+   div.mask-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       
+      padding: 20px;
+       gap:10px;
+       width: 100%;
+       margin-top: 10px;
+
+   }
+
+  }
